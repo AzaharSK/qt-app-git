@@ -9,10 +9,15 @@ Window {
 
     Text {
         id: text_id
-         x:10; y:20
-        text: qsTr("This is a text")
+        anchors.centerIn: parent
+        text: qsTr("This is a text1")
     }
 
+    Text {
+        id: text_id2
+        x:10; y:20
+        text: qsTr("This is a text2")
+    }
     Rectangle {
         x:10; y:40
         color: "red"
