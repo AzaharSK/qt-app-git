@@ -11,5 +11,8 @@ Window {
         id: duck
         anchors.centerIn: parent
         source: "qrc:/images/duck.jpg"
+        width: sourceSize.width*2
+        height: sourceSize.height*2 - 100
+        Component.onCompleted: console.log(sourceSize, width, height)
     }
 }
