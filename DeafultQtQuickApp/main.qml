@@ -13,10 +13,10 @@ Window {
         text: qsTr("This is a text1")
     }
 
-    Text {
+    TextInput {
         id: text_id2
         x:10; y:20
-        text: qsTr("This is a text2")
+        text: qsTr("This is a input text2")
     }
     Rectangle {
         x:10; y:40
@@ -27,10 +27,27 @@ Window {
     }
 
     Rectangle {
+        id:blue
         x:100; y:50
         color: "blue"
-        width: 100
+        width: 150
         height: width/2
+
+        Rectangle {
+            anchors.centerIn: parent
+            color: "black"
+            width: 50
+            height: width/2
+        }
+
+        Rectangle {
+            x:blue.x+10 ; y:blue.y+5
+            color: "orange"
+            width: blue.width/2
+            height: width/2
+        }
+
+
     }
 
     Rectangle {
