@@ -17,10 +17,16 @@ Window {
         Component.onCompleted: console.log(sourceSize, width, height)
     }
 
+    //java script
+    property int new_height: height/4
+
     Image {
         id: qt_logo
         source: "https://upload.wikimedia.org/wikipedia/commons/0/0b/Qt_logo_2016.svg"
         width: 100
-        height: 100
+        height: new_height-20
+
+        onProgressChanged: console.log(qt_logo.progress)
+        onStateChanged: if(remoteImage.status === Image.Ready) console.log("Image loaded")
     }
 }
