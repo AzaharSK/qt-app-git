@@ -86,6 +86,8 @@
 
 * `SwipeView component:` SwipeView is used to create swipeable views with multiple pages. It is particularly useful for creating interactive and touch-friendly interfaces.
 
+* `Timer element:` The Timer element is used to create timed events and delays in QML applications.
+
 How can you dynamically create and destroy QML components at runtime?
 
 Answer: Dynamic creation and destruction of QML components can be achieved using the Loader element and managing the source property dynamically.
