@@ -58,8 +58,9 @@
 # QML Components:
 
 * `Item element:` The Item element is a basic visual element in QML, serving as a container for other items. It has no inherent visual appearance but provides a way to group and position other visual elements.
-          * - Like QObject is the base class for everything
-          * - Item is base class for all QML element type
+  
+* Like QObject is the base class for everything
+* Item is base class for all QML element type
   
 
 * ` Rectangle element:` The Rectangle element is a visual element in QML used to draw rectangles on the screen. It provides properties like width, height, color, etc., making it suitable for various UI components.
