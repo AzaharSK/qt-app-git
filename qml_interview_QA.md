@@ -29,7 +29,7 @@
    It allows the usage of predefined QML types from libraries or modules.
 
 ### How does data binding work in QML?
-* `Answer:` Data binding in QML allows the automatic propagation of changes from one property to another. When one property changes, the bound property is           automatically updated. This simplifies the management of UI elements and their interactions.
+* `Answer:` __Data binding__ in QML allows the automatic propagation of changes from one property to another. When one property changes, the bound property is           automatically updated. This simplifies the management of UI elements and their interactions.
 
 ### What is the purpose of the Component element in QML?
 
