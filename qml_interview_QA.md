@@ -8,7 +8,7 @@
 * Is a part of the Qt framework
 * Is  used to create  UI-centric applications.
 * QML provides a declarative syntax for UI design,
-* Emphasizing a clear separation of UI and application logic.
+* It Emphasizes on a clear separation of UI and application logic.
 
 
 ### Explain the basic structure of a QML file.
