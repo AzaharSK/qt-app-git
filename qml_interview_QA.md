@@ -1,20 +1,21 @@
 ### What is QML, and how does it relate to Qt?
 
-* Answer: QML, or Qt Meta-Object Language, is a declarative language for designing user interface-centric applications. 
+* `Answer:` QML, or Qt Meta-Object Language, is a declarative language for designing user interface-centric applications. 
   It is part of the Qt framework and is used to create UIs in a way that separates the design and logic.
 
 ### Explain the basic structure of a QML file.
 
-* Answer: A QML file consists of an import statement, a root element, and nested elements.
-  The import statement specifies the QML modules used, the root element defines the top-level structure, and nested elements represent the components of the UI.
+* `Answer:` A QML file consists of an import statement, a root element, and nested elements.
+   The import statement specifies the QML modules used, the root element defines the top-level structure, and nested elements represent the components of the UI.
 
 ### What is the purpose of the import statement in QML?
 
-Answer: The import statement is used to include QML modules and make their types available in the current QML document. It allows the usage of predefined QML types from libraries or modules.
-How does data binding work in QML?
+* `Answer:` The import statement is used to include QML modules and make their types available in the current QML document. It allows the usage of predefined QML    types from libraries or modules.
 
-Answer: Data binding in QML allows the automatic propagation of changes from one property to another. When one property changes, the bound property is automatically updated. This simplifies the management of UI elements and their interactions.
-What is the significance of the Item element in QML?
+### How does data binding work in QML?
+* `Answer:` Data binding in QML allows the automatic propagation of changes from one property to another. When one property changes, the bound property is           automatically updated. This simplifies the management of UI elements and their interactions.
+
+### What is the significance of the Item element in QML?
 
 Answer: The Item element is a basic visual element in QML, serving as a container for other items. It has no inherent visual appearance but provides a way to group and position other visual elements.
 How can you handle user input in QML?
