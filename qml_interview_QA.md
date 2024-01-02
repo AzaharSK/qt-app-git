@@ -110,3 +110,10 @@ Answer: QML can be integrated with C++ through Qt's signals and slots mechanism.
 Explain the role of the ListView component in QML.
 
 Answer: ListView is used to display a list of items. It efficiently manages the creation and destruction of item delegates, making it suitable for displaying large sets of data.
+
+Explain the use of QtQuick.Controls in QML.
+
+Answer: QtQuick.Controls provides ready-to-use UI controls, enhancing the development of user interfaces.
+What is the Connections element in QML?
+
+Answer: The Connections element is used to connect signals and slots in QML.
