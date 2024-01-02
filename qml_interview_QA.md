@@ -4,7 +4,7 @@
 
 * `Answer:`
   
-* QML - Qt Meta-Object Language,
+* QML - __Qt Meta-Object Language__
 * Is a part of the Qt framework
 * Is  used to create  UI-centric applications.
 * QML provides a declarative syntax for UI design,
