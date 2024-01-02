@@ -74,29 +74,18 @@
 
 * `ListView component:` ListView is used to efficiently display large sets of data in a scrollable list. It automatically manages the creation and destruction of item delegates based on the visible area.
  
-### How can you create a custom QML component?
+* `Custom component:` Creating a custom QML component involves defining a new QML file that encapsulates the desired functionality. This file can then be reused in other QML files.
 
-* `Answer:` Creating a custom QML component involves defining a new QML file that encapsulates the desired functionality. This file can then be reused in other QML files.
+* `Repeater element:` The Repeater element simplifies item creation by repeating a given item multiple times, which is useful when creating lists or grids of similar elements.
   
-### Explain the role of the Repeater element in QML.
+* `Column and Row elements Layouts:` Column and Row elements are used to arrange child items vertically and horizontally, respectively. They provide a convenient way to create flexible and responsive layouts.
 
-* `Answer:` The Repeater element simplifies item creation by repeating a given item multiple times, which is useful when creating lists or grids of similar elements.
-  
-### What is the purpose of the Column and Row elements in QML layouts?
+* `User input events:` User input events in QML components are handled using elements like MouseArea for mouse events, Keys for keyboard events, and other similar elements for touch or other input devices.
 
-* `Answer:` Column and Row elements are used to arrange child items vertically and horizontally, respectively. They provide a convenient way to create flexible and responsive layouts.
+* `FocusScope element:` FocusScope is used to define a focus scope within which focus can move. It is useful for managing the focus behavior of multiple components.
 
-### How can you handle user input events in QML components?
+* `SwipeView component:` SwipeView is used to create swipeable views with multiple pages. It is particularly useful for creating interactive and touch-friendly interfaces.
 
-* `Answer:` User input events in QML components are handled using elements like MouseArea for mouse events, Keys for keyboard events, and other similar elements for touch or other input devices.
-
-### Explain the use of the FocusScope element in QML.
-
-* `Answer:` FocusScope is used to define a focus scope within which focus can move. It is useful for managing the focus behavior of multiple components.
-
-### What is the purpose of the SwipeView component in QML?
-
-Answer: SwipeView is used to create swipeable views with multiple pages. It is particularly useful for creating interactive and touch-friendly interfaces.
 How can you dynamically create and destroy QML components at runtime?
 
 Answer: Dynamic creation and destruction of QML components can be achieved using the Loader element and managing the source property dynamically.
