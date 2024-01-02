@@ -2,26 +2,25 @@
 
 ### What is QML, and how does it relate to Qt?
 
-* `Answer:` QML, or Qt Meta-Object Language, is a declarative language for designing user interface-centric applications. 
-  It is part of the Qt framework and is used to create UIs in a way that separates the design and logic.
+* `Answer:`
+  
+* QML - Qt Meta-Object Language,
+* Is a part of the Qt framework
+* Is  used to create  UI-centric applications.
+* QML provides a declarative syntax for UI design,
+* Emphasizing a clear separation of UI and application logic.
 
-### How does QML relate to Qt?
-
-* `Answer:` QML is part of the Qt framework and is used for designing UIs in a declarative manner.
-
-### How does QML differ from other UI technologies?
-
-* `Answer:` QML provides a declarative syntax for UI design, separating design and logic, and is part of the Qt framework.
-
-### What is the role of QML in the Qt framework?
-
-* `Answer:` QML is a key part of Qt for designing user interfaces, emphasizing a clear separation of UI and application logic.
 
 ### Explain the basic structure of a QML file.
 
-* `Answer:` A QML file consists of an __import__ statement, a __root element__, and __nested elements__.
-   The import statement specifies the QML modules used, the root element defines the top-level structure,
-   and nested elements represent the components of the UI.
+* `Answer:`
+* A QML file consists of 3 things -
+    * @1 an __import__ statement,
+    * @2 a __root element__
+    * @3 and __nested elements__.
+
+  The import statement specifies the QML modules used, the root element defines the top-level structure,
+  and nested elements represent the components of the UI.
 
 ### What is the purpose of the import statement in QML?
 
