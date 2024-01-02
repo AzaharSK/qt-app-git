@@ -20,7 +20,13 @@
     * @3 and __nested elements__.
 
   The import statement specifies the QML modules used, the root element defines the top-level structure,
+  root object - There can be only one
   and nested elements represent the components of the UI.
+  Each component ID must be unique,
+
+ * Note:
+  QML uses parent-child hierarchy to manage resource allocation, so when the parent is destroyed all children got destroyed
+  load starting from the root object, then the rest of the object tree, when the root destroyed, all destroyed
 
 ### What is the purpose of the import statement in QML?
 
@@ -52,6 +58,9 @@
 # QML Components:
 
 * `Item element:` The Item element is a basic visual element in QML, serving as a container for other items. It has no inherent visual appearance but provides a way to group and position other visual elements.
+          * - Like QObject is the base class for everything
+          * - Item is base class for all QML elements type
+  
 
 * ` Rectangle element:` The Rectangle element is a visual element in QML used to draw rectangles on the screen. It provides properties like width, height, color, etc., making it suitable for various UI components.
 
